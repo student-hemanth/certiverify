@@ -1,0 +1,14 @@
+{
+  "name": "certverify-root",
+  "version": "1.0.0",
+  "description": "CertVerify — Blockchain Certificate Verification (root workspace)",
+  "private": true,
+  "scripts": {
+    "deploy": "node deploy.js",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "dependencies": {
+    "solc": "0.8.19",
+    "web3": "^4.3.0"
+  }
+}
